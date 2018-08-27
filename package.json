@@ -1,0 +1,44 @@
+{
+  "name": "frontier-guard",
+  "version": "1.0.0",
+  "description": "Tower defence game",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iagafonov/frontier-guard.git"
+  },
+  "keywords": [
+    "life"
+  ],
+  "author": "Ivan Agafonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iagafonov/frontier-guard/issues"
+  },
+  "homepage": "https://github.com/iagafonov/frontier-guard#readme",
+  "devDependencies": {
+    "@types/node": "^10.7.1",
+    "@types/pixi.js": "^4.8.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "ts-loader": "^4.4.2",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.1.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "pixi.js": "^4.8.1"
+  }
+}
